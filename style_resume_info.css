@@ -1,0 +1,95 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar { width: 0; }
+
+p{
+    margin: 0;
+}
+
+#menu{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 200px;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+
+.menu-item:hover{
+    color: rgb(94, 69, 0);
+}
+
+#main{
+    margin-top: 200px;
+    margin-left: 135px;
+}
+
+#heading{
+    font-size: 64px;
+    font-weight: 500;
+}
+
+#under_heading{
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+#contacts{
+    margin-top: 70px;
+}
+
+.contact{
+    font-weight: 500;
+}
+
+#social_networks{
+    display: flex;
+    margin-top: 20px;
+}
+
+.s_n_item{
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.s_n_item:hover{
+    color: rgb(94, 69, 0);
+}
+
+.point{
+    margin-right: 10px;
+}
+
+#arrow_down{
+    margin-top: 70px;
+}
+
+#education, #skills, #achievements, #contactss{
+    margin-left: 135px;
+    margin-top: 90px;
+}
+
+#contactss{
+    margin-bottom: 50px;
+}
+
+#education_heading, #skills_heading, #achievements_heading, #contacts_heading{
+    font-weight: 500;
+    font-size: 28px;
+}
+
+#education_text, #achievements_text, #skills_text{
+    margin-top: 50px;
+}
+
+.bold_text{
+    font-weight: 500;
+    font-size: 24px;
+}
